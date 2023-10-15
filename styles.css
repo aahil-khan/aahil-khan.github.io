@@ -1,0 +1,117 @@
+nav, h1, h2,h3,ul,li,table, p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.banner{
+    position:relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    font-family:'Courier New', Courier, monospace ;
+    color: white;
+    padding: 20x;
+    font-size: 35px;
+    position: absolute;
+    left:5%;
+    top:30%;
+}
+body{
+    background-color: #103454;
+    margin:0;
+    padding:0;
+}
+header h1{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+header{
+    background-color:rgb(39, 39, 182);
+    padding: 10 0;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+header h1{
+    border: 8px solid #585454;
+    display: inline-block;
+    padding:6px 12px;
+}
+
+nav{
+    background:blue;
+    color: white;
+    padding:15px;
+    position: sticky;
+    top:62px;
+    z-index: 1;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+}
+
+nav li{
+    width: 33%;
+    display: inline-block;
+    font-size: 22px;
+}
+
+nav li a{
+    text-decoration: none;
+    color:yellow;
+}
+nav li a:hover{
+    text-decoration: underline;
+  }
+
+main{
+    font-size: 25px;
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:aqua;
+}
+
+a:hover{
+text-decoration: underline;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    text-align:center;
+}
+
+td,th{
+    border:1px solid #999;
+    padding:20px;
+}
+
+th{
+    background:blue;
+    color:white;
+    border-radius: 0;
+    position:sticky;
+    top:0;
+    padding:10px
+}
+article{
+    color:white;
+}
