@@ -29,8 +29,8 @@ header h1{
 }
 
 header{
-    background-color:rgb(39, 39, 182);
-    padding: 10 0;
+    background-color:blue;
+    padding: 15px;
     text-align: center;
     position:fixed;
     width: 100%;
@@ -39,39 +39,25 @@ header{
     z-index:1;
 }
 
-header h1{
-    border: 8px solid #585454;
-    display: inline-block;
-    padding:6px 12px;
-}
 
-nav{
-    background:blue;
-    color: white;
-    padding:15px;
-    position: sticky;
-    top:62px;
-    z-index: 1;
-}
-
-nav ul{
+header ul{
     white-space: nowrap;
     max-width: 1200px;
     margin:0 auto;
     text-align: center;
 }
 
-nav li{
+header li{
     width: 33%;
     display: inline-block;
     font-size: 22px;
 }
 
-nav li a{
+header li a{
     text-decoration: none;
     color:yellow;
 }
-nav li a:hover{
+header li a:hover{
     text-decoration: underline;
   }
 
